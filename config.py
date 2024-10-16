@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+ji# Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -17,12 +17,12 @@ def is_enabled(value, default):
 
 class Config(object):
     # Bot Information 
-    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "")
-    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "") # Bot username without @.
+    TECH_VJ_BOT_TOKEN = os.environ.get("TECH_VJ_BOT_TOKEN", "8042134692:AAHaSbNp55qmpHng8z3FsjFut6iGU7gSCoM")
+    TECH_VJ_BOT_USERNAME = os.environ.get("TECH_VJ_BOT_USERNAME", "PS12085") # Bot username without @.
     
     # The Telegram API things
-    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", ""))
-    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "")
+    TECH_VJ_API_ID = int(os.environ.get("TECH_VJ_API_ID", "24793246"))
+    TECH_VJ_API_HASH = os.environ.get("TECH_VJ_API_HASH", "4c19bc941eec1b863336d717dafc6f06")
     
     # the download location, where the HTTP Server runs
     TECH_VJ_DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -47,15 +47,15 @@ class Config(object):
     TECH_VJ_PROCESS_MAX_TIMEOUT = 3600
     
     # your telegram account id
-    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "")) 
+    TECH_VJ_OWNER_ID = int(os.environ.get("TECH_VJ_OWNER_ID", "6172202347")) 
     TECH_VJ_SESSION_NAME = "VJ-URL-UPLOADER-BOT"
     
     # database uri (mongodb)
-    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "")
+    TECH_VJ_DATABASE_URL = os.environ.get("TECH_VJ_DATABASE_URL", "mongodb+srv://pks_900:zmil7xlBYBaTBSca@cluster0.dm5qp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     TECH_VJ_MAX_RESULTS = "50"
 
     # channel information
-    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "")) # your log channel id and make bot admin in log channel with full right 
+    TECH_VJ_LOG_CHANNEL = int(os.environ.get("TECH_VJ_LOG_CHANNEL", "-1002393231571")) # your log channel id and make bot admin in log channel with full right 
     
     # if you want force subscribe then give your channel id below else leave blank
     tech_vj_update_channel = environ.get('TECH_VJ_UPDATES_CHANNEL', '') # your update channel id and make bot admin in update channel with full right
